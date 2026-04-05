@@ -1,39 +1,36 @@
 /*-----------------------------------------------------------------------------
- * Roseppuccin
- * A Catppuccin theme inspired by a wine tonal palette.
+ * Mistppuccin
+ * A Catppuccin theme inspired by a monochrome tonal palette.
  * Author: K1ngw1ng
  * Version: 1.0.0
  * License: GPL-3.0
- * Repository: https://github.com/Los-Crucenos-Archive/roseppuccin.git
+ * Repository: https://github.com/Centra-Labs/mistppuccin.git
  *-----------------------------------------------------------------------*/
 :root {
-    --base: #1A0F14;
-    --mantle: #22141A;
-    --crust: #2B1A21;
-
-    --surface0: #362129;
-    --surface1: #402830;
-    --surface2: #4B3038;
-
-    --text: #F4EAEA;
-    --subtext1: #D9C2C4;
-    --subtext0: #BFA6A9;
-
-    --rosewater: #F2D6D9;
-    --flamingo: #E8A8AF;
-    --pink: #D47C8A;
-    --mauve: #A35C6F;
-    --red: #8C2F39;
-    --maroon: #6E1F2B;
-    --peach: #C57A5C;
-    --yellow: #C9A227;
-    --green: #7A8F63;
-    --teal: #5F7C74;
-    --sky: #6F8A8F;
-    --blue: #4F5C7A;
-    --lavender: #8B6C86;
-
-    --primary-gradient: linear-gradient(135deg, var(--mauve) 0%, var(--lavender) 100%);
-    --secondary-gradient: linear-gradient(135deg, var(--pink) 0%, var(--mauve) 100%);
-    --accent-gradient: linear-gradient(135deg, var(--peach) 0%, var(--pink) 100%);
-    --vintage-sepia: sepia(20%) contrast(90%) brightness(105%);
+  --base:        #111111;
+  --mantle:      #181818;
+  --crust:       #0a0a0a;
+  --surface0:    #202020;
+  --surface1:    #2a2a2a;
+  --surface2:    #343434;
+  --overlay0:    #3f3f3f;
+  --overlay1:    #5a5a5a;
+  --overlay2:    #767676;
+  --text:        #e6e6e6;
+  --subtext1:    #cfcfcf;
+  --subtext0:    #b5b5b5;
+  --rosewater:   #dcdcdc;
+  --flamingo:    #c8c8c8;
+  --pink:        #b4b4b4;
+  --mauve:       #a0a0a0;
+  --red:         #8c8c8c;
+  --maroon:      #787878;
+  --peach:       #646464;
+  --yellow:      #505050;
+  --green:       #3c3c3c;
+  --teal:        #2e2e2e;
+  --sky:         #242424;
+  --sapphire:    #1c1c1c;
+  --blue:        #161616;
+  --lavender:    #101010;
+}
