@@ -1,67 +1,66 @@
-# Roséppuccin
-
-### The color palette for loscrucenos.com
+# Mistppuccin
+### The color palette for tilley.lol
 
 # Color Palette
 
 ## Surface Stack
-
 | Role     | Hex       | Usage               |
 | -------- | --------- | ------------------- |
-| Base     | `#1A0F14` | Main background     |
-| Mantle   | `#22141A` | Section backgrounds |
-| Crust    | `#2B1A21` | Elevated surfaces   |
-| Surface0 | `#362129` | Cards               |
-| Surface1 | `#402830` | Hover surfaces      |
-| Surface2 | `#4B3038` | Active surfaces     |
+| Base     | `#111111` | Main background     |
+| Mantle   | `#181818` | Section backgrounds |
+| Crust    | `#0a0a0a` | Elevated surfaces   |
+| Surface0 | `#202020` | Cards               |
+| Surface1 | `#2a2a2a` | Hover surfaces      |
+| Surface2 | `#343434` | Active surfaces     |
 
 ---
 
 ## Text Hierarchy
-
 | Role     | Hex       |
 | -------- | --------- |
-| Text     | `#F4EAEA` |
-| Subtext1 | `#D9C2C4` |
-| Subtext0 | `#BFA6A9` |
-| Overlay  | `#8F7579` |
+| Text     | `#e6e6e6` |
+| Subtext1 | `#cfcfcf` |
+| Subtext0 | `#b5b5b5` |
+| Overlay2 | `#767676` |
+| Overlay1 | `#5a5a5a` |
+| Overlay0 | `#3f3f3f` |
 
 ## Accent System
-
-| Role      | Hex       | Description          |
-| --------- | --------- | -------------------- |
-| Rosewater | `#F2D6D9` | Soft highlight       |
-| Flamingo  | `#E8A8AF` | Active accent        |
-| Pink      | `#D47C8A` | Secondary accent     |
-| Mauve     | `#A35C6F` | Muted burgundy       |
-| Red       | `#8C2F39` | Bold accent          |
-| Maroon    | `#6E1F2B` | Primary button color |
-| Peach     | `#C57A5C` | Warm clay            |
-| Yellow    | `#C9A227` | Muted gold           |
-| Green     | `#7A8F63` | Olive sage           |
-| Teal      | `#5F7C74` | Dusty teal           |
-| Blue      | `#4F5C7A` | Muted indigo         |
-| Lavender  | `#8B6C86` | Smoky lavender       |
+| Role      | Hex       | Description           |
+| --------- | --------- | --------------------- |
+| Rosewater | `#dcdcdc` | Soft highlight        |
+| Flamingo  | `#c8c8c8` | Active accent         |
+| Pink      | `#b4b4b4` | Secondary accent      |
+| Mauve     | `#a0a0a0` | Muted mid-tone        |
+| Red       | `#8c8c8c` | Bold accent           |
+| Maroon    | `#787878` | Primary button color  |
+| Peach     | `#646464` | Warm mid              |
+| Yellow    | `#505050` | Muted dark            |
+| Green     | `#3c3c3c` | Deep surface          |
+| Teal      | `#2e2e2e` | Near-black surface    |
+| Sky       | `#242424` | Deep background tone  |
+| Sapphire  | `#1c1c1c` | Darkest surface       |
+| Blue      | `#161616` | Near void             |
+| Lavender  | `#101010` | Void adjacent         |
 
 ---
 
 # Customization
-
 All colors are controlled via CSS variables inside `:root`:
-
 ```css
 :root {
-    --base: #1A0F14;
-    --mantle: #22141A;
-    --crust: #2B1A21;
-
-    --maroon: #6E1F2B;
-    --red: #8C2F39;
-    --flamingo: #E8A8AF;
+    --base:     #111111;
+    --mantle:   #181818;
+    --crust:    #0a0a0a;
+    --surface0: #202020;
+    --surface1: #2a2a2a;
+    --surface2: #343434;
+    --text:     #e6e6e6;
+    --subtext1: #cfcfcf;
+    --subtext0: #b5b5b5;
 }
 ```
 
 # Inspiration
-
 * Catppuccin color system
-* Wine tonal palettes
+* Monochrome grayscale tones
